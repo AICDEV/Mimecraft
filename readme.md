@@ -9,7 +9,7 @@ MimeTypes are included from the official IANA: [IANA](https://www.iana.org/assig
 
 #### install with yarn
 ```
-yarn install mimecraft
+yarn add mimecraft
 ```
 
 
