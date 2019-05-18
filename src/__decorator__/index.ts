@@ -1,0 +1,1 @@
+export {injectMimeType} from "./MimeTypeInjector";
