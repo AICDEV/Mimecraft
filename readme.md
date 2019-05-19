@@ -5,6 +5,8 @@ Helper for mime type detection by filename or mime type. Has build in types to s
 
 MimeTypes are included from the official IANA: [IANA](https://www.iana.org/assignments/media-types/media-types.xhtml)
 
+Tested with node >=12.0 and all actual browsers.
+
 ### Install
 
 #### install with yarn
@@ -19,6 +21,7 @@ npm install mimecraft
 ```
 
 ### API
+
 
 ### TypeScript
 #### create instance
@@ -110,6 +113,21 @@ Ask for mime type or extension that is not included in this lib you will receive
 ```
 { extension: '', type: '' }
 ```
+
+### AFTER CHECKOUT OR CLONE THE PROJECT
+After your first checkout or clone please run "yarn install" to install all required dependencies containing in package.json file.
+
+#### folder structure
+You will find the following folder structure:
+
+- ./lib (build target folder)
+- ./src (source code base on typescript)
+
+#### preconfigured commands
+We have the following preconfigured commands that can easily run with yarn [command]: 
+
+- yarn clean (clean the lib folder)
+- yarn build (start build job)
 
 ### Hint
 You can always ask with "pdf" or ".pdf" for example. 
