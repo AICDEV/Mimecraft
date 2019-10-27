@@ -28,7 +28,7 @@ npm install mimecraft
 ```typescript
 
    const MimeType: IMimeTypesUtils = new MimeTypesUtils();
-   MimeType.mimetype.getMimeTypeForFileExtension("pdf");
+   MimeType.getMimeTypeForFileExtension("pdf");
 ```
 
 #### inject mimetype service
@@ -44,7 +44,7 @@ npm install mimecraft
 ```
 #### resolve by file extension
 ```typescript
-	MimeType.mimetype.getMimeTypeForFileExtension("pdf");
+	MimeType.getMimeTypeForFileExtension("pdf");
 ```
 Output:
 
@@ -54,7 +54,7 @@ Output:
 
 #### resolve file extension by mime type
 ```typescript
-	MimeType.mimetype.getFileExtensionForMimeType("application/pdf");
+	MimeType.getFileExtensionForMimeType("application/pdf");
 ```
 
 Output:
@@ -73,7 +73,7 @@ Ask for mime type or extension that is not included in this lib you will receive
 ```javascript
 
    const MimeType = new MimeTypesUtils();
-   MimeType.mimetype.getMimeTypeForFileExtension("pdf");
+   MimeType.getMimeTypeForFileExtension("pdf");
 ```
 
 #### inject mimetype service
@@ -90,7 +90,7 @@ Ask for mime type or extension that is not included in this lib you will receive
 
 #### resolve by file extension
 ```javascript
-	MimeType.mimetype.getMimeTypeForFileExtension("pdf");
+	MimeType.getMimeTypeForFileExtension("pdf");
 ```
 Output:
 
@@ -99,7 +99,7 @@ Output:
 ```
 #### resolve file extension by mime type
 ```javascript
-	MimeType.mimetype.getFileExtensionForMimeType("application/pdf");
+	MimeType.getFileExtensionForMimeType("application/pdf");
 ```
 
 Output:
